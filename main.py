@@ -63,7 +63,7 @@ async def users_lists(message: Message):
         all_users = get_all_users()
         text = "Users list: \n\n"
         for user in all_users:
-            text += f"Name: {user[0]} \n Phone: {user[1]} \n City: {user[2]} \n\n"
+            text += f"Name: {user[0]} \n Phone: {user[1]}\n Level: {user[2]} \n City: {user[3]} \n\n"
         
         await message.answer(text)
 
