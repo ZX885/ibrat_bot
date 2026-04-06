@@ -31,8 +31,8 @@ phone_kb = ReplyKeyboardMarkup(
 level_kb = ReplyKeyboardMarkup(
     keyboard=[
         [KeyboardButton(text="A1-Beginner"), KeyboardButton(text="A2-Elementary")],
-        [KeyboardButton(text="B1-Intermediate"), KeyboardButton(text="B2-Pre-Intermediate")],
-        [KeyboardButton(text="C1-Upper-Intermediate"), KeyboardButton(text="C2-Advanced")],
+        [KeyboardButton(text="B1-Pre-Intermediate"), KeyboardButton(text="B2-Upper-Intermediate")],
+        [KeyboardButton(text="C1-Advanced"), KeyboardButton(text="C2-Pro-Level")],
     ],
     resize_keyboard=True
 )
