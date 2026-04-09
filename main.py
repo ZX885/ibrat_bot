@@ -105,7 +105,7 @@ async def registration_handler(message: Message):
         await message.answer(
             "✅ Registration successful!\n\n"
             "Welcome to Ibrat Speech!\n"
-            "Join our channel: https://t.me/ibratspeech",
+            "Join to our group: https://t.me/ibratspeech_groups",
             reply_markup=types.ReplyKeyboardRemove()
         )
 @dp.message(lambda message: message.contact is not None)
